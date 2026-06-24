@@ -19,14 +19,14 @@ export function Hero() {
           <div className="flex flex-col gap-6">
             <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full w-fit">
               <span className="w-2 h-2 bg-accent rounded-full"></span>
-              <span className="text-sm font-medium">Профессиональное обучение</span>
+              <span className="text-sm font-medium">Акция до 31.05.2026 · Количество ограничено</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
-              Выведите карьеру VA на новый уровень
+              Печь Programat P310/G2 + помпа VP5 в подарок
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Персональное обучение 1-на-1 от эксперта отрасли. Освойте навыки, стратегии и инструменты,
-              чтобы стать востребованным виртуальным ассистентом.
+              Готовый комплект для зуботехнической лаборатории: надёжная печь Ivoclar Vivadent и
+              профессиональный вакуумный насос, которые идеально работают в паре. Выгода 165 000 ₽.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button
@@ -34,7 +34,7 @@ export function Hero() {
                 size="lg"
                 className="bg-accent hover:bg-accent/90 text-accent-foreground text-base"
               >
-                Записаться на сессию
+                Заказать комплект
               </Button>
               <Button
                 onClick={handleLearnMore}
@@ -42,21 +42,21 @@ export function Hero() {
                 variant="outline"
                 className="border-border text-foreground hover:bg-muted bg-transparent"
               >
-                Узнать больше
+                Узнать о выгоде
               </Button>
             </div>
             <div className="flex gap-8 pt-4 text-sm">
               <div>
-                <p className="font-semibold text-foreground">500+</p>
-                <p className="text-muted-foreground">Выпускников</p>
+                <p className="font-semibold text-foreground">595 000 ₽</p>
+                <p className="text-muted-foreground">Цена комплекта</p>
               </div>
               <div>
-                <p className="font-semibold text-foreground">4.9/5</p>
-                <p className="text-muted-foreground">Средний рейтинг</p>
+                <p className="font-semibold text-foreground">165 000 ₽</p>
+                <p className="text-muted-foreground">Ваша выгода</p>
               </div>
               <div>
-                <p className="font-semibold text-foreground">10+</p>
-                <p className="text-muted-foreground">Лет опыта</p>
+                <p className="font-semibold text-foreground">В наличии</p>
+                <p className="text-muted-foreground">Быстрая отгрузка</p>
               </div>
             </div>
           </div>
@@ -65,8 +65,8 @@ export function Hero() {
           <div className="relative h-96 md:h-full min-h-96">
             <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
             <img
-              src="/professional-woman-working-on-laptop-in-virtual-me.jpg"
-              alt="Обучение виртуальных ассистентов"
+              src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/files/3b9c86bd-4f76-4fad-b4c2-ebf16541f3dc.jpg"
+              alt="Печь Programat P310/G2 и вакуумный насос VP5"
               className="w-full h-full object-cover rounded-2xl"
             />
           </div>

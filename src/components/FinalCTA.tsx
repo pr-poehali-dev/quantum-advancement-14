@@ -15,11 +15,11 @@ export function FinalCTA() {
     <section className="bg-accent py-20 md:py-32">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-accent-foreground mb-6 text-balance">
-          Готовы изменить свою карьеру?
+          Успейте заказать с выгодой 165 000 ₽
         </h2>
         <p className="text-lg text-accent-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Присоединяйтесь к сотням успешных виртуальных ассистентов, которые взяли карьеру в свои руки.
-          Ваша первая сессия может стать переломным моментом.
+          Печь Programat P310/G2 и насос VP5 в подарок — готовый комплект для вашей лаборатории.
+          Количество ограничено, акция действует до 31.05.2026.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
@@ -27,7 +27,7 @@ export function FinalCTA() {
             size="lg"
             className="bg-accent-foreground hover:bg-accent-foreground/90 text-accent text-base"
           >
-            Записаться на сессию
+            Заказать комплект
           </Button>
           <Button
             onClick={handleLearnMore}
@@ -35,11 +35,11 @@ export function FinalCTA() {
             variant="outline"
             className="border-accent-foreground text-accent-foreground hover:bg-accent-foreground/10 bg-transparent"
           >
-            Узнать больше
+            Частые вопросы
           </Button>
         </div>
         <p className="text-sm text-accent-foreground/80 mt-8">
-          Мест ограничено • Ближайшая сессия: на этой неделе
+          Количество ограничено • Быстрая отгрузка по всей России
         </p>
       </div>
     </section>

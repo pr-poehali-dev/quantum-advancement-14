@@ -6,28 +6,28 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold">E</span>
+                <span className="text-accent-foreground font-bold">D</span>
               </div>
-              <span className="font-semibold">Elevate VA Academy</span>
+              <span className="font-semibold">DENTOPT</span>
             </div>
-            <p className="text-sm text-background/70">Персональное обучение 1-на-1 для будущих виртуальных ассистентов.</p>
+            <p className="text-sm text-background/70">Стоматологические и зуботехнические материалы и оборудование. Более 15 000 позиций в наличии.</p>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Навигация</h4>
             <ul className="space-y-2 text-sm text-background/70">
               <li>
                 <a href="#about" className="hover:text-background transition">
-                  О нас
+                  О комплекте
                 </a>
               </li>
               <li>
                 <a href="#benefits" className="hover:text-background transition">
-                  Преимущества
+                  Выгода
                 </a>
               </li>
               <li>
                 <a href="#booking" className="hover:text-background transition">
-                  Записаться
+                  Заказать
                 </a>
               </li>
               <li>
@@ -38,26 +38,21 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Поддержка</h4>
+            <h4 className="font-semibold mb-4">Покупателям</h4>
             <ul className="space-y-2 text-sm text-background/70">
               <li>
-                <a href="#" className="hover:text-background transition">
-                  Контакты
+                <a href="#faq" className="hover:text-background transition">
+                  Частые вопросы
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-background transition">
-                  Вопросы
+                <a href="#booking" className="hover:text-background transition">
+                  Доставка и отгрузка
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-background transition">
-                  Конфиденциальность
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-background transition">
-                  Условия
+                <a href="#benefits" className="hover:text-background transition">
+                  Условия акции
                 </a>
               </li>
             </ul>
@@ -66,30 +61,25 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Связаться</h4>
             <ul className="space-y-2 text-sm text-background/70">
               <li>
-                <a href="#" className="hover:text-background transition">
-                  LinkedIn
+                <a href="tel:+78005500352" className="hover:text-background transition">
+                  +7 (800) 550-03-52
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-background transition">
-                  Twitter
+                  Telegram
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-background transition">
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-background transition">
-                  Email
+                  MAX
                 </a>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-background/20 pt-8 text-center text-sm text-background/70">
-          <p>&copy; 2025 Elevate VA Academy. Все права защищены.</p>
+          <p>&copy; 2026 DENTOPT. Не является публичной офертой. Количество товара ограничено.</p>
         </div>
       </div>
     </footer>
