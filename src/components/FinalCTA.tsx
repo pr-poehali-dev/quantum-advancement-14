@@ -19,7 +19,7 @@ export function FinalCTA() {
         </h2>
         <p className="text-lg text-accent-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed">
           Печь Programat P310/G2 и насос VP5 в подарок — готовый комплект для вашей лаборатории.
-          Количество ограничено, акция действует до 31.05.2026.
+          Количество ограничено, акция действует до 30.06.2026.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button

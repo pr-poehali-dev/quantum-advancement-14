@@ -78,9 +78,13 @@ export function Hero() {
                   className="w-full max-h-32 object-contain drop-shadow-md"
                 />
               </div>
-              <div className="flex-1 bg-accent rounded-xl p-4 flex flex-col items-center justify-center text-center gap-1">
-                <p className="text-accent-foreground font-bold text-2xl">+165 000 ₽</p>
-                <p className="text-accent-foreground/90 text-sm font-medium">ваша экономия</p>
+              <div className="flex-1 bg-muted/40 rounded-xl p-4 flex flex-col items-center justify-center text-center gap-1">
+                <img
+                  src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/files/2d6afcae-1e5d-4064-b76b-01e977687a1b.jpg"
+                  alt="Насос VP5 в подарок"
+                  className="w-full max-h-28 object-contain"
+                />
+                <p className="text-accent font-bold text-sm mt-1">в подарок!</p>
               </div>
             </div>
           </div>
