@@ -19,7 +19,7 @@ export function Hero() {
           <div className="flex flex-col gap-6">
             <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full w-fit">
               <span className="w-2 h-2 bg-accent rounded-full"></span>
-              <span className="text-sm font-medium">Акция до 31.05.2026 · Количество ограничено</span>
+              <span className="text-sm font-medium">Акция до 30.06.2026 · Количество ограничено</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
               Печь Programat P310/G2 + помпа VP5 в подарок
@@ -62,13 +62,27 @@ export function Hero() {
           </div>
 
           {/* Right Image */}
-          <div className="relative h-96 md:h-full min-h-96">
-            <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
-            <img
-              src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/files/3b9c86bd-4f76-4fad-b4c2-ebf16541f3dc.jpg"
-              alt="Печь Programat P310/G2 и вакуумный насос VP5"
-              className="w-full h-full object-cover rounded-2xl"
-            />
+          <div className="relative min-h-96 flex flex-col gap-4">
+            <div className="bg-gradient-to-br from-accent/5 to-muted/30 rounded-2xl p-6 flex items-center justify-center">
+              <img
+                src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/bucket/8bf8c888-1725-43a5-b4d8-18b9a41710b8.png"
+                alt="Печь Programat P310"
+                className="w-full max-h-64 object-contain drop-shadow-lg"
+              />
+            </div>
+            <div className="flex gap-4">
+              <div className="flex-1 bg-gradient-to-br from-muted/30 to-accent/5 rounded-xl p-4 flex items-center justify-center">
+                <img
+                  src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/bucket/55eddc95-8128-4418-9ffd-dfb14592df7a.png"
+                  alt="Насос VP5"
+                  className="w-full max-h-32 object-contain drop-shadow-md"
+                />
+              </div>
+              <div className="flex-1 bg-accent rounded-xl p-4 flex flex-col items-center justify-center text-center gap-1">
+                <p className="text-accent-foreground font-bold text-2xl">+165 000 ₽</p>
+                <p className="text-accent-foreground/90 text-sm font-medium">ваша экономия</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

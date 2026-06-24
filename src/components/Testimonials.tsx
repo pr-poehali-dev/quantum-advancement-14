@@ -43,11 +43,9 @@ export function Testimonials() {
               </div>
               <p className="text-muted-foreground mb-6 leading-relaxed italic">"{testimonial.quote}"</p>
               <div className="flex items-center gap-4">
-                <img
-                  src={testimonial.image || "/placeholder.svg"}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
+                <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0">
+                  <span className="text-accent font-bold text-lg">{testimonial.name[0]}</span>
+                </div>
                 <div>
                   <p className="font-semibold text-foreground">{testimonial.name}</p>
                   <p className="text-sm text-muted-foreground">{testimonial.role}</p>

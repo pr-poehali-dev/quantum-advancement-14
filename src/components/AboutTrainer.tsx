@@ -4,9 +4,26 @@ export function AboutTrainer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image */}
-          <div className="relative h-96 md:h-full min-h-96">
-            <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
-            <img src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/files/3b9c86bd-4f76-4fad-b4c2-ebf16541f3dc.jpg" alt="Комплект Programat P310/G2 и насос VP5" className="w-full h-full object-cover rounded-2xl" />
+          <div className="flex flex-col gap-4">
+            <div className="bg-white rounded-2xl p-8 flex items-center justify-center shadow-sm border border-border">
+              <img
+                src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/files/d70917e1-91ba-4e8a-a3b6-f7bcb7994c23.jpg"
+                alt="Печь Programat P310/G2"
+                className="w-full max-h-56 object-contain"
+              />
+            </div>
+            <div className="bg-white rounded-2xl p-6 flex items-center gap-6 shadow-sm border border-border">
+              <img
+                src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/files/95396791-8907-4a44-86b9-09feeffd438c.jpg"
+                alt="Насос VP5"
+                className="w-32 h-24 object-contain flex-shrink-0"
+              />
+              <div>
+                <p className="text-accent font-bold text-lg">+ Насос VP5</p>
+                <p className="text-muted-foreground text-sm">в подарок при покупке печи</p>
+                <p className="text-foreground font-semibold text-sm mt-1">стоимость 165 000 ₽</p>
+              </div>
+            </div>
           </div>
 
           {/* Content */}
