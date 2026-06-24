@@ -66,7 +66,7 @@ export function Hero() {
             <img
               src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/bucket/2fdb61aa-2ecc-4f49-bc82-a720368d4e76.png"
               alt="Печь Programat P310/G2 и насос VP5 в подарок"
-              className="w-full max-w-lg rounded-2xl object-contain drop-shadow-xl"
+              className="w-full max-w-lg object-contain"
             />
           </div>
         </div>
