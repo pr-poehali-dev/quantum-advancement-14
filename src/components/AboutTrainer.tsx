@@ -7,21 +7,24 @@ export function AboutTrainer() {
           <div className="flex flex-col gap-4">
             <div className="bg-white rounded-2xl p-8 flex items-center justify-center shadow-sm border border-border">
               <img
-                src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/files/d70917e1-91ba-4e8a-a3b6-f7bcb7994c23.jpg"
+                src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/bucket/82ec0ea9-451a-4e3e-a56e-3be75ff32238.png"
                 alt="Печь Programat P310/G2"
                 className="w-full max-h-56 object-contain"
               />
             </div>
             <div className="bg-white rounded-2xl p-6 flex items-center gap-6 shadow-sm border border-border">
               <img
-                src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/files/95396791-8907-4a44-86b9-09feeffd438c.jpg"
+                src="https://cdn.poehali.dev/projects/eb76fa82-8794-471c-bf81-8f28db6f22ad/bucket/55eddc95-8128-4418-9ffd-dfb14592df7a.png"
                 alt="Насос VP5"
                 className="w-32 h-24 object-contain flex-shrink-0"
               />
               <div>
                 <p className="text-accent font-bold text-lg">+ Насос VP5</p>
                 <p className="text-muted-foreground text-sm">в подарок при покупке печи</p>
-                <p className="text-foreground font-semibold text-sm mt-1">стоимость 165 000 ₽</p>
+                <div className="flex items-center gap-2 mt-1">
+                  <span className="text-muted-foreground text-sm line-through">165 000 ₽</span>
+                  <span className="text-accent font-bold text-lg">0 ₽</span>
+                </div>
               </div>
             </div>
           </div>
